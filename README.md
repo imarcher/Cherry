@@ -38,12 +38,12 @@ The data is better stored on SSD, otherwise IO time will overlap CPU time and wi
 Cherry is written on the basis of [leveldb](https://github.com/google/leveldb), mainly cmake projects (in `leveldb_sax`), and provides JNI for java calls.
 The compilation options for the c++ part of the code are in `/leveldb_sax/CMakeLists.txt`.
 
-We recommend running with Idea and Clion.
-Compile `leveldb_sax` with Clion to generate `libleveldbj.so` and add its path to the VM options of java.
-For example: `-Djava.library.path=./leveldb_sax/cmake-build-release`. Then you can run `Main.java` in the Idea.
-You can find Idea's VM options settings in: top right corner select `Edit Run/Debug configurations` -> `alt+v`
+We recommend running with IDEA and CLion.
+Compile `leveldb_sax` with CLion to generate `libleveldbj.so` and add its path to the VM options of java.
+For example: `-Djava.library.path=./leveldb_sax/cmake-build-release`. Then you can run `Main.java` in the IDEA.
+You can find IDEA's VM options settings in: top right corner select `Edit Run/Debug configurations` -> `alt+v`
 
-Of course, If you don't want to install Idea and Clion, it can also be compiled and run only using the following command：
+Of course, If you don't want to install IDEA and CLion, it can also be compiled and run only using the following command：
 ```shell
 # Move to the code folder
 # 1. Compile the leveldb_sax

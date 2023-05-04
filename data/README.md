@@ -23,7 +23,7 @@ GCC 9.4.0 \
 GSL 2.7
 
 ## Compile and Run
-It is Cmake project, which can be easily compiled and run by Clion.
+It is Cmake project, which can be easily compiled and run by CLion.
 Alternatively, you can compile and run using the following command.
 ```shell
 # Move to the cdata folder
